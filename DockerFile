@@ -1,0 +1,9 @@
+FROM java:8-jdk-alpine
+
+COPY ./target/im-cake-manager-1.0-SNAPSHOT.jar /tmp/
+
+WORKDIR /tmp
+
+RUN sh -c 'touch im-cake-manager-1.0-SNAPSHOT.jar'
+
+ENTRYPOINT ["java","-jar","im-cake-manager-1.0-SNAPSHOT.jar"]
