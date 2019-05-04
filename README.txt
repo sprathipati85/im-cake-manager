@@ -5,7 +5,7 @@ Build the Maven project
 mvn clean install
 
 # How it works - Run the im-cake-manager application
-java -jar im-cake-manager.jar
+java -jar im-cake-manager-1.0-SNAPSHOT.jar
 (or) Import the application into Intellij/Eclipse and Run the Application.java
 
 The project can be access on http://localhost:8080/
